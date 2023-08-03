@@ -15,6 +15,7 @@ body {
 
   label {
     display: block;
+    padding: 5px;
     margin-bottom: 5px;
   }
 
@@ -40,7 +41,7 @@ body {
   }
 
   button:hover{
-    background-color: #4cf813;
+    background-color: #13f8bf;
   }
 
   p {
