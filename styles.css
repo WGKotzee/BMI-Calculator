@@ -1,13 +1,15 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    background-color: rgb(109, 13, 141);
   }
 
   #calculator {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #4cf813;
+    background-color: rgb(254, 12, 218);
     border-radius: 5px;
   }
 
@@ -20,12 +22,12 @@ body {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 3px solid #4cf813;
     border-radius: 5px;
   }
 
   button {
-    background-color: #4CAF50;
+    background-color: #4cf813;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -35,6 +37,10 @@ body {
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
+  }
+
+  button:hover{
+    background-color: #4cf813;
   }
 
   p {
