@@ -48,3 +48,17 @@ body {
     margin-top: 20px;
     font-weight: bold;
   }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 60px; 
+    }
+  
+    #calculator {
+        max-width: 250px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+  }
